@@ -11,7 +11,7 @@ const HooksContainer = () => {
   return (
     <>
       <h1>Number of Hooks pizza Base Available - {pizzaBase}</h1>
-      <button onClick={() => dispatch(orderPizza())}>Order Pizza</button>
+      <button onClick={() => dispatch(orderPizza())}>Order Pizza.</button>
     </>
   )
 }
